@@ -3,57 +3,40 @@
   src: url("../fonts/GraphikLCG-Regular.woff2") format("woff2"), url("../fonts/GraphikLCG-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
-  font-display: swap; }
+  font-display: swap;
+}
 
 @font-face {
   font-family: 'Helvetica';
   src: url("../fonts/Helvetica.woff2") format("woff2"), url("../fonts/Helvetica.woff") format("woff");
   font-weight: 400;
   font-style: normal;
-  font-display: swap; }
+  font-display: swap;
+}
 
 @font-face {
   font-family: 'Helvetica';
   src: url("../fonts/Helvetica-Bold.woff2") format("woff2"), url("../fonts/Helvetica-Bold.woff") format("woff");
   font-weight: 500;
   font-style: normal;
-  font-display: swap; }
+  font-display: swap;
+}
 
 @font-face {
   font-family: 'HelveticaNeueCyr';
   src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
   font-weight: 400;
   font-style: normal;
-  font-display: swap; }
+  font-display: swap;
+}
 
 @font-face {
   font-family: 'HelveticaNeueCyr';
   src: url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
   font-weight: 500;
   font-style: normal;
-  font-display: swap; }
-
-.page {
-  box-sizing: border-box; }
-
-*,
-*::after,
-*::before {
-  box-sizing: inherit; }
-
-img {
-  max-width: 100%;
-  height: auto; }
-
-a {
-  text-decoration: none; }
-
-li {
-  list-style: none; }
-
-ul {
-  padding: 0;
-  margin: 0; }
+  font-display: swap;
+}
 
 h1,
 h2,
@@ -64,472 +47,13 @@ h6,
 p {
   font-weight: 400;
   margin: 0;
-  padding: 0; }
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
   padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden; }
+  text-transform: uppercase;
+}
 
-.container {
-  width: auto;
-  padding: 0 20px;
-  margin: 0 auto; }
-  @media (min-width: 800px) {
-    .container {
-      padding: 0 110px; } }
-
-.button {
-  text-align: center;
-  border: none;
-  outline: none;
-  padding: 17px 10px;
-  display: block;
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  margin: 0 auto;
-  cursor: pointer; }
-
-.page {
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
-  color: #000000; }
-
-.page__body {
-  min-width: 320px;
-  margin: 0 auto; }
-  @media (min-width: 800px) {
-    .page__body {
-      max-width: 800px; } }
-
-.page__nav {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 30px; }
-  @media (min-width: 800px) {
-    .page__nav {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: start;
-      margin-top: 50px;
-      margin-bottom: 54px; } }
-  .page__nav-list {
-    flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    -moz-column-gap: 15px;
-         column-gap: 15px;
-    font-family: 'Graphik LCG', sans-serif;
-    font-size: 12px;
-    line-height: 15px;
-    margin: 0;
-    padding: 19px 0 40px; }
-    @media (min-width: 800px) {
-      .page__nav-list {
-        grid-template-columns: repeat(7, auto);
-        -moz-column-gap: 30px;
-             column-gap: 30px;
-        order: -1;
-        padding: 9px 0 0; } }
-  .page__nav-item--none {
-    display: none; }
-    @media (min-width: 800px) {
-      .page__nav-item--none {
-        display: block; } }
-  .page__nav-link {
-    color: #000000; }
-    .page__nav-link--active {
-      color: #F10D48; }
-  .page__nav-img {
-    display: block;
-    margin: 0 auto 20px; }
-    @media (min-width: 800px) {
-      .page__nav-img {
-        width: 223px;
-        margin-bottom: 40px; } }
-
-.idole {
-  margin-bottom: 70px; }
-  @media (min-width: 800px) {
-    .idole {
-      margin-bottom: 112px; } }
-  .idole__pic img {
-    display: block;
-    margin: 0 auto 20px; }
-    @media (min-width: 800px) {
-      .idole__pic img {
-        min-width: 580px;
-        -o-object-fit: cover;
-           object-fit: cover;
-        margin-bottom: 25px; } }
-  .idole__title {
-    font-size: 30px;
-    line-height: 39px;
-    text-align: center;
-    margin-bottom: 10px; }
-    @media (min-width: 800px) {
-      .idole__title {
-        font-size: 45px;
-        line-height: 54px;
-        margin-bottom: 15px; } }
-  .idole__text {
-    text-align: center;
-    margin-bottom: 30px;
-    letter-spacing: -0.3px; }
-    @media (min-width: 800px) {
-      .idole__text {
-        font-size: 20px;
-        line-height: 28px; }
-        .idole__text br {
-          display: none; } }
-  .idole__button {
-    color: #ffffff;
-    background-color: #000000;
-    font-family: "HelveticaNeueCyr", "Arial", sans-serif;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 11px;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    padding: 21px 0 18px; }
-    @media (min-width: 800px) {
-      .idole__button {
-        font-size: 14px;
-        line-height: 14px;
-        padding: 18px 109px;
-        max-width: 393px; } }
-
-.achievements {
-  margin-bottom: 70px; }
-  @media (min-width: 800px) {
-    .achievements {
-      margin-bottom: 114px; } }
-  .achievements__subtext {
-    font-size: 11px;
-    line-height: 14px;
-    text-align: center;
-    letter-spacing: 1.4px;
-    margin-bottom: 5px; }
-    @media (min-width: 800px) {
-      .achievements__subtext {
-        font-size: 14px;
-        margin-bottom: 12px; } }
-  .achievements__title {
-    font-size: 25px;
-    line-height: 32px;
-    text-align: center;
-    margin-bottom: 10px;
-    padding: 0 10px; }
-    .achievements__title br {
-      display: none; }
-    .achievements__title:last-of-type {
-      margin-bottom: 15px; }
-      @media (min-width: 800px) {
-        .achievements__title:last-of-type {
-          margin-bottom: 10px; } }
-    @media (min-width: 800px) {
-      .achievements__title {
-        font-size: 35px;
-        line-height: 42px;
-        margin-bottom: 12px; } }
-    @media (min-width: 800px) {
-      .achievements__title--desktop {
-        font-size: 45px;
-        line-height: 54px;
-        padding: 0 50px; } }
-  .achievements__img {
-    display: block;
-    margin: 0 auto 14px;
-    -o-object-fit: cover;
-       object-fit: cover; }
-    @media (min-width: 800px) {
-      .achievements__img {
-        min-width: 580px;
-        margin: 0 auto 20px; } }
-  .achievements__text {
-    text-align: center;
-    margin-bottom: 66px;
-    letter-spacing: -0.2px; }
-    .achievements__text br {
-      display: none; }
-    @media (min-width: 800px) {
-      .achievements__text {
-        font-size: 20px;
-        line-height: 28px;
-        margin-bottom: 110px; } }
-    .achievements__text:last-of-type {
-      margin-bottom: 30px; }
-      @media (min-width: 800px) {
-        .achievements__text:last-of-type:last-of-type {
-          margin-bottom: 40px;
-          letter-spacing: -0.3px; } }
-  .achievements__container {
-    display: grid;
-    row-gap: 30px; }
-    @media (min-width: 800px) {
-      .achievements__container {
-        grid-template-columns: repeat(2, 1fr);
-        -moz-column-gap: 40px;
-             column-gap: 40px; } }
-  .achievements__card {
-    text-align: center; }
-    @media (min-width: 800px) {
-      .achievements__card {
-        text-align: right; }
-        .achievements__card:last-child {
-          text-align: left; } }
-    .achievements__card-img {
-      -o-object-fit: cover;
-         object-fit: cover;
-      margin-bottom: 5px; }
-      @media (min-width: 800px) {
-        .achievements__card-img {
-          min-width: 270px;
-          margin-bottom: 19px; } }
-    .achievements__card-text {
-      font-size: 10px;
-      line-height: 15px;
-      letter-spacing: 1.4px;
-      text-transform: uppercase; }
-      @media (min-width: 800px) {
-        .achievements__card-text {
-          font-size: 11px;
-          line-height: 16px;
-          margin-bottom: 7px; } }
-    .achievements__card-name {
-      font-size: 18px;
-      line-height: 29px;
-      text-transform: uppercase; }
-      @media (min-width: 800px) {
-        .achievements__card-name {
-          font-size: 24px;
-          line-height: 34px;
-          margin-bottom: 4px;
-          letter-spacing: 0.5px; } }
-      .achievements__card-name span {
-        font-size: 16px;
-        line-height: 22px;
-        text-transform: none; }
-        @media (min-width: 800px) {
-          .achievements__card-name span {
-            font-size: 20px;
-            line-height: 28px; } }
-    .achievements__card-price {
-      font-size: 17px;
-      line-height: 24px; }
-      @media (min-width: 800px) {
-        .achievements__card-price {
-          font-size: 23px;
-          line-height: 32px;
-          margin-bottom: 4px;
-          margin-right: 4px; } }
-      .achievements__card-price s {
-        color: #B3B3B3;
-        margin-left: 17px;
-        text-decoration: none;
-        position: relative; }
-        @media (min-width: 800px) {
-          .achievements__card-price s {
-            margin-left: 22px; } }
-        .achievements__card-price s::before {
-          position: absolute;
-          top: 0;
-          left: -5px;
-          content: "";
-          width: calc(100% + 10px);
-          height: 60%;
-          border-bottom: 2px solid #B3B3B3; }
-    .achievements__card-buy {
-      display: none; }
-      @media (min-width: 800px) {
-        .achievements__card-buy {
-          display: block;
-          font-size: 11px;
-          line-height: 11px;
-          letter-spacing: 1.4px;
-          text-transform: uppercase;
-          color: #000000;
-          margin-right: 6px; }
-          .achievements__card-buy svg {
-            position: relative;
-            top: 3px;
-            left: 6px; } }
-
-.promo {
-  background-color: #FFE9DA;
-  padding: 30px 0 20px;
-  margin-bottom: 70px;
-  text-align: center; }
-  @media (min-width: 800px) {
-    .promo {
-      max-width: 580px;
-      margin: 0 auto 95px;
-      padding: 30px 15px 20px; } }
-  .promo__subtext {
-    font-size: 11px;
-    line-height: 16px;
-    font-weight: 500;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    opacity: 0.7; }
-  .promo__title {
-    font-size: 45px;
-    line-height: 54px;
-    letter-spacing: -0.2px;
-    margin-bottom: 7px; }
-    @media (min-width: 800px) {
-      .promo__title {
-        font-size: 50px;
-        line-height: 60px;
-        margin-bottom: 5px; } }
-  .promo__text {
-    font-size: 14px;
-    line-height: 18px;
-    opacity: 0.7;
-    margin-bottom: 25px; }
-    @media (min-width: 800px) {
-      .promo__text {
-        margin-bottom: 15px; }
-        .promo__text br {
-          display: none; } }
-    .promo__text-small {
-      font-size: 11px;
-      line-height: 15px;
-      opacity: 0.8; }
-  .promo__button {
-    color: #000000;
-    background-color: #ffffff;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 16px;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 15px; }
-    @media (min-width: 800px) {
-      .promo__button {
-        max-width: 280px;
-        margin-bottom: 18px; } }
-
-.page__footer {
-  background-color: #000000;
-  padding: 35px 17px 32px; }
-  @media (min-width: 800px) {
-    .page__footer {
-      padding: 50px 0 40px; }
-      .page__footer-social__fb {
-        width: 9px;
-        height: 18px; }
-      .page__footer-social__ok {
-        width: 10px;
-        height: 18px; }
-      .page__footer-social__vk {
-        width: 23px;
-        height: 13px; }
-      .page__footer-social__instagram {
-        width: 19px;
-        height: 19px; } }
-  @media (min-width: 800px) {
-    .page__footer-inner {
-      display: grid;
-      grid-template-columns: 181px 209px;
-      -moz-column-gap: 188px;
-           column-gap: 188px; } }
-  .page__footer-social__list {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 20px; }
-    @media (min-width: 800px) {
-      .page__footer-social__list {
-        justify-content: space-between;
-        margin-bottom: 29px;
-        margin-top: 4px; } }
-  .page__footer-social__item {
-    margin-right: 44px; }
-    @media (min-width: 800px) {
-      .page__footer-social__item {
-        margin-right: 40px; } }
-    .page__footer-social__item:last-child {
-      margin-right: 0; }
-  .page__footer-applications {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 43px; }
-    @media (min-width: 800px) {
-      .page__footer-applications {
-        margin-bottom: 0; } }
-    @media (min-width: 800px) {
-      .page__footer-applications__iphone {
-        width: 84px;
-        height: 23px; } }
-    @media (min-width: 800px) {
-      .page__footer-applications__android {
-        width: 93px;
-        height: 22px; } }
-  .page__footer-text__list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.2px;
-    padding: 0 2px; }
-    @media (min-width: 800px) {
-      .page__footer-text__list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column: 1/3;
-        -moz-column-gap: 168px;
-             column-gap: 168px;
-        text-align: right;
-        padding: 0;
-        letter-spacing: 0; } }
-  @media (min-width: 800px) {
-    .page__footer-text__item {
-      margin-top: -7px; } }
-  .page__footer-text__link {
-    color: #ffffff;
-    font-family: "HelveticaNeueCyr", "Arial", sans-serif;
-    font-size: 10px;
-    line-height: 15px; }
-  .page__footer-text__contacts {
-    font-family: 'Graphik LCG', sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    margin-top: 8px;
-    margin-bottom: 10px; }
-
-.page__footer-text__item:first-child {
-  opacity: 0.6; }
-  @media (min-width: 800px) {
-    .page__footer-text__item:first-child {
-      opacity: 1; } }
-
-.item--support {
-  grid-row: 2/2;
-  grid-column: 1; }
-  @media (min-width: 800px) {
-    .item--support {
-      text-align: left;
-      margin-top: -7px; } }
-
-.item--phone {
-  grid-row: 1;
-  grid-column: 1; }
-  @media (min-width: 800px) {
-    .item--phone {
-      text-align: left; } }
+table,
+td,
+tr,
+th {
+  padding: 0;
+}
